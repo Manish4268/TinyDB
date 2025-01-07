@@ -1,0 +1,3 @@
+id int|
+primaryKey=id
+foreignKey=

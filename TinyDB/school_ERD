@@ -1,0 +1,23 @@
++------------------------------------------+
+|                 student                  |
++------------------------------------------+
+|        studentname (varchar(20))         |
+|          primaryKey = studentid          |
++------------------------------------------+
+
++------------------------------------------+
+|                 subject                  |
++------------------------------------------+
+|        subjectname (varchar(20))         |
+|             studentid (int)              |
+|          primaryKey = subjectid          |
+|          foreignKey = studentid          |
+|       references student.studentid       |
++------------------------------------------+
+
+
+Legend:
+<>------: Foreign Key Relationship (1:N)
+--------: Foreign Key Relationship (1:1)
+         learns
+student------<>subject

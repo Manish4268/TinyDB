@@ -1,0 +1,3 @@
+t3id int|id int|
+primaryKey=t3id
+foreignKey=id|t2

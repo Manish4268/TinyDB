@@ -1,0 +1,3 @@
+studentid int|studentname varchar(20)|
+primaryKey=studentid
+foreignKey=

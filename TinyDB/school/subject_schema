@@ -1,0 +1,3 @@
+subjectid int|subjectname varchar(20)|studentid int|
+primaryKey=subjectid
+foreignKey=studentid|student
